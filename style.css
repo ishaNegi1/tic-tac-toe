@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #050A30;
+}
+
+#main_heading img{
+    height: 70px;
+    width: 350px;
+}
+
+#main_heading{
+    height: 100px;
+    width: 400px;
+    background-color: #D4F1F4;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 18px; 
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.box{
+    display: flex;
+    height: 80px;
+}
+
+.subBox{
+    width: 100px;
+    border: 5px solid white;
+}
+
+.subBox_1{
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.subBox_1:hover{
+    color: black;
+}
+
+.subBox:hover{
+    background-color: #D4F1F4;
+    cursor: pointer;
+}
+
+.border_top{
+    border-top: 0px;
+}
+
+.border_bottom{
+      border-bottom: 0px;
+}
+
+.border_right{
+    border-right: 0px;
+}
+
+.border_left{
+    border-left: 0px;
+}
+
+#main_box{
+   margin-left: 150px;
+   margin-top: 100px;
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    height: 200px;
+    width: 250px;
+    margin-left: -50px;
+    margin-top: 95px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+#btn{
+    position: absolute;
+    left: 570px;
+    top: 150px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+#content{
+    font-size: 20px;
+    font-weight: 600;
+    color: #B9B7BD;
+    margin: 10px;
+    overflow: auto;
+}
+
+#win{
+    height: 200px;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: none;
+    
+}
+
+#turn_div{
+    display: flex;
+}
+
+#turn{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#sub_turn{
+    margin-left: 22px;
+    font-size: 30px;
+}
+
+#win_box{
+    display: flex;
+}
+
+#text{
+    margin-left: 10px; 
+    margin-top: 15px;
+}
+
+#who_win{
+    margin-left: 18px;
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+#choose{
+    display: flex;
+}
+
+#choose_btn{
+height: 30px;
+width: 120px;
+border-radius: 10px;
+font-size: 14px;
+font-weight: 600;
+margin-left: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+#choose_btn:hover{
+    background-color: rgb(189, 184, 184);
+}
+
+#choose_text{
+margin-top: 8px;
+margin-left: 25px;
+font-size: 28px;
+font-weight: 600;
+}
+
+
+
+
